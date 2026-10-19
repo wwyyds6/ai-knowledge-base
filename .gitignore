@@ -1,18 +1,18 @@
 @'
-# 虚拟环境
+# 铏氭嫙鐜
 .venv/
 venv/
 env/
 
-# Python 缓存
+# Python 缂撳瓨
 __pycache__/
 *.py[cod]
 
-# 环境变量与密钥
+# 鐜鍙橀噺涓庡瘑閽?
 .env
 .env.local
 
-# 测试与覆盖率
+# 娴嬭瘯涓庤鐩栫巼
 .pytest_cache/
 .coverage
 htmlcov/
@@ -22,7 +22,10 @@ htmlcov/
 .vscode/
 *.swp
 
-# 上传的文件与日志（后续做文档上传时，本地测试文件不入库）
+# 涓婁紶鐨勬枃浠朵笌鏃ュ織锛堝悗缁仛鏂囨。涓婁紶鏃讹紝鏈湴娴嬭瘯鏂囦欢涓嶅叆搴擄級
 uploads/
 *.log
 '@ | Set-Content -Path .gitignore -Encoding UTF8
+
+# 本地上传的文档数据
+data/
